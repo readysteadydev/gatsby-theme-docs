@@ -1,0 +1,7 @@
+export { default as Body } from './Body'
+export { default as Container } from './Container'
+export { default as FixedLayout } from './FixedLayout'
+export { default as Footer } from './Footer'
+export { default as Header } from './Header'
+export { default as Main } from './Main'
+export { default as Sidebar } from './Sidebar'

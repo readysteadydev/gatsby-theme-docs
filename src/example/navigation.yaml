@@ -1,0 +1,29 @@
+# Navigation supports up to 4 levels of nesting.
+# This file is an example.
+- title: Docs
+  # Keep `key` as `docSidebar` for navigation to work.
+  key: docSidebar
+  items:
+    # Level 0
+    - title: Introduction
+      link: /
+    # Level 0
+    - title: Expandable
+      link: /expandable/
+      items:
+        # Level 1
+        - title: Level One
+          link: /level-1/
+          items:
+            # Level 2
+            - title: Level Two
+              link: /level-2/
+            - title: Also Level Two
+              link: /also-level-2/
+              items:
+                # Level 3
+                - title: Level Three
+                  link: /level-3/
+    # Level 0
+    - title: The End
+      link: /end/

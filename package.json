@@ -1,0 +1,43 @@
+{
+  "name": "@readysteady/gatsby-theme-docs",
+  "version": "0.1.0",
+  "description": "A GatsbyJS documentation theme.",
+  "main": "index.js",
+  "author": "Rheinard Korf",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop -H 0.0.0.0",
+    "clean": "gatsby clean",
+    "build": "gatsby build"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.66",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "gatsby": "^2.13.66",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.16",
+    "@mdx-js/mdx": "^1.3.1",
+    "@mdx-js/react": "^1.3.0",
+    "@theme-ui/prism": "^0.2.29",
+    "gatsby": "^2.13.66",
+    "gatsby-mdx": "^1.0.0",
+    "gatsby-plugin-mdx": "^1.0.24",
+    "gatsby-plugin-sharp": "^2.2.12",
+    "gatsby-plugin-theme-ui": "^0.2.34",
+    "gatsby-remark-images": "^3.1.12",
+    "gatsby-remark-mermaid": "^1.2.0",
+    "gatsby-remark-prismjs": "^3.3.5",
+    "gatsby-source-filesystem": "^2.1.9",
+    "gatsby-transformer-yaml": "^2.2.4",
+    "prismjs": "^1.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "theme-ui": "^0.2.35"
+  }
+}
