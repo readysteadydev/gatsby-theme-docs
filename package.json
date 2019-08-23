@@ -1,6 +1,6 @@
 {
   "name": "@readysteady/gatsby-theme-docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A GatsbyJS documentation theme.",
   "main": "index.js",
   "author": "Rheinard Korf",
