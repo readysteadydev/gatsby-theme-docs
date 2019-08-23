@@ -1,6 +1,6 @@
 {
   "name": "@readysteady/gatsby-theme-docs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A GatsbyJS documentation theme.",
   "main": "index.js",
   "author": "Rheinard Korf",
@@ -8,6 +8,12 @@
     "type": "git",
     "url": "https://github.com/readysteadydev/gatsby-theme-docs"
   },
+  "keywords": [
+    "gatsby",
+    "theme",
+    "gatsby-theme",
+    "documentation"
+  ],
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
