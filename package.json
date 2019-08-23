@@ -4,6 +4,10 @@
   "description": "A GatsbyJS documentation theme.",
   "main": "index.js",
   "author": "Rheinard Korf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/readysteadydev/gatsby-theme-docs"
+  },
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
