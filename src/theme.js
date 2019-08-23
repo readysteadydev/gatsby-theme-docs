@@ -36,7 +36,7 @@ export const theme = {
     body: 1.5,
     heading: 1.125
   },
-  layoutsss: {
+  layouts: {
     Body: {
       /*
        * Uncomment below for indepenent scrolling.
@@ -116,6 +116,27 @@ export const theme = {
     },
     Link: {
       color: 'primary',
+    },
+    td: {
+      padding: '10px',
+      textAlign: 'left',
+      borderRight: '1px solid',
+      borderColor: 'dim'
+    },
+    th: {
+      padding: '10px',
+      textAlign: 'left',
+      borderRight: '1px solid',
+      borderColor: 'dim'
+    },
+    tr: {
+      background: 'none',
+      borderBottom: '1px solid',
+      borderColor: 'dim',
+    },
+    table: {
+      border: '1px solid',
+      borderColor: 'dim'
     }
   }
 };
