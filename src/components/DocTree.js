@@ -82,14 +82,14 @@ const DocTree = props => {
         }}
         sx={{
           display: "inline-block",
-          width: ["30px","30px",'0'],
-          height: ["30px","30px",'0'],
+          width: ["30px",'0'],
+          height: ["30px",'0'],
           borderStyle: "solid",
-          borderWidth: ["3px","3px", "0 7px 14px 7px"],
-          borderRadius: ['40px','40px','0'],
-          borderColor: ['hsl(0, 0%, 50%)','hsl(0, 0%, 50%)', "transparent transparent hsl(0, 0%, 60%) transparent"],
+          borderWidth: ["3px","0 7px 14px 7px"],
+          borderRadius: ['40px','0'],
+          borderColor: ['hsl(0, 0%, 50%)',"transparent transparent hsl(0, 0%, 60%) transparent"],
           position: "absolute",
-          left: ["-32px","-32px","-24px"],
+          left: ["-32px","-24px"],
           transform: isExpanded
             ? "rotate(180deg) scale(0.8)"
             : "rotate(90deg) scale(0.8)",
@@ -107,7 +107,7 @@ const DocTree = props => {
             hasLeaves ? "leafy" : ""
           }`}
           sx={{
-            margin: ['15px 20px','15px 20px', '10px 15px'],
+            margin: ['15px 20px','10px 15px'],
             paddingLeft: `${depth * 12}px`,
             variant: "layout.DocTreeItem"
           }}

@@ -4,7 +4,7 @@ import { jsx } from 'theme-ui'
 const Container = (props) => {
     return (
         <div sx={{
-            maxWidth: ['auto','auto','35em','35em'],
+            maxWidth: ['auto','35em','35em','55em'],
             margin: '0 auto',
             variant: 'layout.Container',
         }}

@@ -9,7 +9,7 @@ const Body = (props) => {
             justifyContent: 'space-around',
             flexDirection: [
                 'column',
-                'column',
+                'row',
                 'row'
             ],
             alignItems: 'start',

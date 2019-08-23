@@ -4,21 +4,21 @@ import { jsx } from 'theme-ui'
 const Sidebar = (props) => {
     return (
         <div sx={{
-            flex: ['0','0','0 0 15em','0 0 20em'],
-            fontSize: ['1.2em','1.4em','1em','1.2em'],
+            flex: ['0','0 0 14em','0 0 15em','0 0 15em'],
+            fontSize: ['1.2em','1em'],
             backgroundColor: 'block',
             margin: '1em',
             marginBottom: ['0', '0', '1em'],
             borderRadius: '5px',
             padding: '0 1em',
             height: 'auto',
-            width: ['calc(100% - 1em - 1em)','calc(100% - 1em - 1em)', 'auto'],
+            width: ['calc(100% - 1em - 1em)','auto', 'auto'],
             variant: 'layout.Sidebar',
         }}
         {...props}>
             <label sx={{
                 height: '40px',
-                display: ['block','block','none'],
+                display: ['block','none','none'],
                 margin: '0 auto',
                 textAlign: 'center',
                 'svg': {
@@ -37,7 +37,7 @@ const Sidebar = (props) => {
             <input type="checkbox" sx={{
                     display: 'none',
                     '& ~ div': {
-                        display: ['none','none','block'],
+                        display: ['none','block','block'],
                     },
                     '&:checked ~ div': {
                         display: 'block',

@@ -89,11 +89,14 @@ export const theme = {
     },
     pre: {
       ...prismPreset,
+      padding: '0.5em',
+      fontSize: '0.8em',
       marginBottom: '10px',
       border: "1px solid rgba(0,0,0,0.06)",
       maxHeight: "500px",
       overflow: "scroll",
       ".line-numbers-rows": {
+        padding: '0.5em',
         borderRight: "3px solid rgba(0,0,0,0.06)"
       },
       "&::-webkit-scrollbar": {
@@ -106,7 +109,7 @@ export const theme = {
       },
       "&::-webkit-scrollbar-corner": {
         background: "rgba(0,0,0,0.2)"
-      }
+      },
     },
     a: {
       color: 'primary',

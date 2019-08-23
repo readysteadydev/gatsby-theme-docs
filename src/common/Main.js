@@ -6,7 +6,7 @@ const Main = (props) => {
         <div sx={{
             flex: '1',
             width: '100%',
-            fontSize: ['1em','1em','1em','1.3em'],
+            fontSize: ['1em','1em','1em','1em'],
             padding: '1em',
             variant: 'layout.Main',
         }}

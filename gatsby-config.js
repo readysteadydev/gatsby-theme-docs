@@ -1,4 +1,4 @@
-module.exports = ({docsSourceName,contentPath}) => {
+module.exports = ({docsSourceName,contentPath, mdx = true}) => {
   return {
     siteMetadata: {
       title: `Documentation Site Name`,
@@ -7,7 +7,7 @@ module.exports = ({docsSourceName,contentPath}) => {
     plugins: [
       "gatsby-plugin-theme-ui",
       "gatsby-plugin-sharp",
-      {
+      mdx && {
         resolve: "gatsby-plugin-mdx",
         options: {
           extensions: [".mdx", ".md"],
